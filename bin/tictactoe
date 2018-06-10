@@ -16,7 +16,7 @@ def start
   else
     game = Game.new
   end
-  
+
   game.turn
   game.play
 end
@@ -28,8 +28,6 @@ puts "Would you like to play again? (y | n)"
 replay = gets.chomp
 if replay == "y"
   start
-  game.turn
-  game.play
 else
   exit
 end
