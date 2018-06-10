@@ -27,6 +27,7 @@ def replay
   while input == "y"
     start
   end
+  if "n"
     puts "Goodbye."
     exit
   end
