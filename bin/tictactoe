@@ -24,9 +24,9 @@ end
 def replay
   puts "Would you like to play again? (y | n)"
   input = gets.chomp
-  While input == "y"
+  while input == "y"
     start
-  else
+  end
     puts "Goodbye."
     exit
   end
