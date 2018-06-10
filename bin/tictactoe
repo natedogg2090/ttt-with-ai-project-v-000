@@ -18,10 +18,10 @@ end
 game.turn
 game.play
 
-puts " Would you like to play again?"
+puts " Would you like to play again? (y | n)"
 input = gets.chomp
 
-if input == "y" || "yes"
+if input == "y"
   puts "What kind of game would you like to play, 0, 1 or 2 players?"
   input = gets.chomp.to_i
 else
