@@ -23,3 +23,6 @@ replay = gets.chomp
 
 if replay == "y" || "yes"
   ruby bin/tictactoe
+else
+  exit
+end
