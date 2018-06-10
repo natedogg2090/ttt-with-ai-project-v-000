@@ -18,5 +18,8 @@ def start
   end
 end
 
+start
 game.turn
 game.play
+
+puts "Would you like to play again? (y | n)"
