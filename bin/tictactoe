@@ -3,7 +3,7 @@
 require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe."
-binding.pry
+game = Game.new
 input = gets.chomp
 game.start
 
