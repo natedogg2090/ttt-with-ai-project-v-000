@@ -34,3 +34,4 @@ end
 start
 
 puts "Would you like to play again? (y | n)"
+replay
