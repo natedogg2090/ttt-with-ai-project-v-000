@@ -2,6 +2,7 @@
 
 require_relative '../config/environment'
 
+Game.new
 game.start
 
 game.turn
