@@ -22,10 +22,11 @@ def start
 end
 
 def replay
+  puts "Would you like to play again? (y | n)"
+  input = gets.chomp
   while input == "y"
-    puts "Would you like to play again? (y | n)"
-    input = gets.chomp
     start
+    replay
   end
   if input == "n"
     puts "Goodbye."
