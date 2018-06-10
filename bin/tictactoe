@@ -21,13 +21,15 @@ def start
   game.play
 end
 
+def replay
+  input = gets.chomp
+  if input == "y"
+    start
+  else
+    exit
+  end
+end
+
 start
 
-
 puts "Would you like to play again? (y | n)"
-replay = gets.chomp
-if replay == "y"
-  start
-else
-  exit
-end
