@@ -37,6 +37,7 @@ while play_again == "y" || "yes"
 
   game.turn
   game.play
-else
-  exit
+  else
+    exit
+  end
 end
