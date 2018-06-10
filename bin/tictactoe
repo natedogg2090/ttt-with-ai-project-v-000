@@ -19,4 +19,7 @@ game.turn
 game.play
 
 puts " Would you like to play again?"
+replay = gets.chomp
 
+if replay == "y" || "yes"
+  ruby bin/tictactoe
