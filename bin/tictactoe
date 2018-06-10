@@ -33,6 +33,4 @@ def replay
 end
 
 start
-
-
 replay
