@@ -23,3 +23,11 @@ game.turn
 game.play
 
 puts "Would you like to play again? (y | n)"
+replay = gets.chomp
+if replay == "y"
+  start
+  game.turn
+  game.play
+else
+  exit
+end
