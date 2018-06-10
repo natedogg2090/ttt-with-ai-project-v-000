@@ -79,18 +79,4 @@ class Game
     end
   end
 
-  def start
-    puts "What kind of game would you like to play, 0, 1 or 2 players?"
-
-    input = gets.chomp.to_i
-
-    if input == 0
-      game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"))
-    elsif input == 1
-      game = Game.new(Players::Human.new("X"), Players::Computer.new("O"))
-    else
-      game = Game.new
-    end
-  end
-
 end
