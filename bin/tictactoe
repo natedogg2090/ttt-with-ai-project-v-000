@@ -2,7 +2,9 @@
 
 require_relative '../config/environment'
 
-Game.new
+puts "Welcome to Tic Tac Toe."
+property
+input = gets.chomp
 game.start
 
 game.turn
