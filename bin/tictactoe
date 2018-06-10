@@ -22,7 +22,7 @@ puts " Would you like to play again?"
 
 play_again = gets.chomp
 
-while play_again == "y" || "yes"
+if play_again == "y" || "yes"
   puts "What kind of game would you like to play, 0, 1 or 2 players?"
 
   input = gets.chomp.to_i
