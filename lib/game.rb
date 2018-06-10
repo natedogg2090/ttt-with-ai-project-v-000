@@ -80,7 +80,6 @@ class Game
   end
 
   def start
-    puts "Welcome to Tic Tac Toe."
     puts "What kind of game would you like to play, 0, 1 or 2 players?"
 
     input = gets.chomp.to_i
