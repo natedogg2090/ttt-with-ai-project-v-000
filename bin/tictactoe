@@ -16,11 +16,13 @@ def start
   else
     game = Game.new
   end
+  
+  game.turn
+  game.play
 end
 
 start
-game.turn
-game.play
+
 
 puts "Would you like to play again? (y | n)"
 replay = gets.chomp
